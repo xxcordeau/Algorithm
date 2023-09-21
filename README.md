@@ -36,3 +36,5 @@ rl.on('line', function (line) {
     
 });
 ```
+문자열을 대문자로 바꿔주는 메서드 > toUpperCase();
+문자열을 소문자로 바꿔주는 메서드 > toLowerCase();
