@@ -41,7 +41,7 @@ rl.on('line', function (line) {
 
 <h1> 2023.09.21 </h1>
 <h3> 문제 3 | 문자열 반복해서 출력하기 </h3>
-<h5> </h5>
+<h5> 문자열 str과 정수 n이 주어집니다. str이 n번 반복된 문자열을 만들어 출력하는 코드를 작성해 보세요.</h5>
 
 ```javascript
 const readline = require('readline');
@@ -66,7 +66,7 @@ rl.on('line', function (line) {
     console.log(answer);
 });
 ```
-- 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
+
 
 <br>
 
@@ -94,15 +94,7 @@ rl.on('line', function (line) {
 });
 ```
 - 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
-
 <br>
-
-
-
-
-
-
-
 
 
 
