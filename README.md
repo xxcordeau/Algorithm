@@ -36,6 +36,7 @@ rl.on('line', function (line) {
 ```
 - 문자열을 대문자로 바꿔주는 메서드 > toUpperCase();
 - 문자열을 소문자로 바꿔주는 메서드 > toLowerCase();
+<br>
 
 <h1> 2023.09.20 </h1>
 <h3> 문제 3 | 문자열 반복해서 출력하기 </h3>
@@ -63,8 +64,11 @@ rl.on('line', function (line) {
     }
     console.log(answer);
 });
+
 ```
+<br>
 - 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
+
 
 <h1> 2023.09.19 </h1>
 <h3> 문제 2 | a와 b 출력하기</h3>
@@ -89,6 +93,7 @@ rl.on('line', function (line) {
     console.log('b = '+Number(input[1]));
 });
 ```
+<br>
 
 <h1> 2023.09.18 </h1>
 <h3> 문제 1 | 문자열 출력하기 </h3>
