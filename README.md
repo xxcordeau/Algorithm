@@ -40,7 +40,7 @@ rl.on('line', function (line) {
 
 
 <h1> 2023.09.21 </h1>
-<h3> 문제 3 | a와 b 출력하기 </h3>
+<h3> 문제 3 | 문자열 반복해서 출력하기 </h3>
 <h5> </h5>
 
 ```javascript
@@ -52,13 +52,18 @@ const rl = readline.createInterface({
 
 let input = [];
 
-
 rl.on('line', function (line) {
     input = line.split(' ');
 
 }).on('close', function () {
-    console.log('a = '+Number(input[0]));
-    console.log('b = '+Number(input[1]));
+    str = input[0];
+    n = Number(input[1]);
+    answer = '';
+    for(let i=0; i<n; i++){
+        answer += str
+        
+    }
+    console.log(answer);
 });
 ```
 - 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
