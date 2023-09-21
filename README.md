@@ -38,11 +38,16 @@ rl.on('line', function (line) {
 - 문자열을 소문자로 바꿔주는 메서드 > toLowerCase();
 <br>
 
+
+
+
+
+
 <h1> 2023.09.20 </h1>
 <h3> 문제 3 | 문자열 반복해서 출력하기 </h3>
 <h5> 문자열 str과 정수 n이 주어집니다.
 str이 n번 반복된 문자열을 만들어 출력하는 코드를 작성해 보세요. </h5>
-```javascript
+```
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
@@ -70,6 +75,10 @@ rl.on('line', function (line) {
 - 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
 
 
+
+
+
+
 <h1> 2023.09.19 </h1>
 <h3> 문제 2 | a와 b 출력하기</h3>
 <h5> 정수 a와 b가 주어집니다. 각 수를 입력받아 입출력 예와 같은 형식으로 출력하는 코드를 작성해 보세요. </h5>
@@ -94,6 +103,8 @@ rl.on('line', function (line) {
 });
 ```
 <br>
+
+
 
 <h1> 2023.09.18 </h1>
 <h3> 문제 1 | 문자열 출력하기 </h3>
