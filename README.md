@@ -39,6 +39,34 @@ rl.on('line', function (line) {
 <br>
 
 
+<h1> 2023.09.21 </h1>
+<h3> 문제 3 | a와 b 출력하기 </h3>
+<h5> </h5>
+
+```javascript
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+let input = [];
+
+
+rl.on('line', function (line) {
+    input = line.split(' ');
+
+}).on('close', function () {
+    console.log('a = '+Number(input[0]));
+    console.log('b = '+Number(input[1]));
+});
+```
+- 문자열을 배열로 바꿔주는 메서드/ 괄호안에있는걸 기준으로 쪼갬 > .split(' ');
+
+<br>
+
+
+
 
 
 
