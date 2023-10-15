@@ -1,5 +1,70 @@
 #Algorithm
 ===================================================
+
+
+<h1> 2023.10.06 </h1>
+<h3> 문제 18 | 대문자로 바꾸기 </h3>
+<h5> 알파벳으로 이루어진 문자열 myString이 주어집니다. 모든 알파벳을 대문자로 변환하여 return 하는 solution 함수를 완성해 주세요. | jEonG >> JEONG </h5>
+
+```javascript
+
+function solution(myString) {
+    var answer = '';
+    
+    answer = myString.toUpperCase();
+    
+    return answer;
+}
+
+```
+<br>
+
+<h1> 2023.10.05 </h1>
+<h3> 문제 17 | 글자 이어 붙여 문자열만들기 </h3>
+<h5> 문자열 my_string과 정수 배열 index_list가 매개변수로 주어집니다. my_string의 index_list의 원소들에 해당하는 인덱스의 글자들을 순서대로 이어 붙인 문자열을 return 하는 solution 함수를 작성해 주세요.<br> 
+ | "cvsgiorszzzmrpaqpe" >>> [16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7]>>> "programmers" </h5>
+
+```javascript
+
+function solution(my_string, index_list) {
+    var answer = [];
+    
+    for( let i = 0; i<index_list.length; i++){
+        
+     answer += my_string[index_list[i]];
+        
+    }
+    
+    return answer;
+}
+
+```
+<br>
+
+
+
+<h1> 2023.10.04 </h1>
+<h3> 문제 16 | 문자열로 변환 </h3>
+<h5> 문자열 my_string과 정수 n이 매개변수로 주어질 때, my_string의 뒤의 n글자로 이루어진 문자열을 return 하는 solution 함수를 작성해 주세요.  <br>  | "ProgrammerS123" >> n >> "grammerS123" </h5>
+
+```javascript
+
+function solution(my_string, n) {
+    var answer = '';
+    
+    answer = my_string.substr(-n)
+    
+    return answer;
+}
+
+```
+<br>
+
+-  substr( start , length ) 
+-  시작점부터 길이만큼 잘림 , start만 적을 경우 시작점부터 전부 잘림
+
+
+
 <h1> 2023.10.03 </h1>
 <h3> 문제 15 | 문자열로 변환 </h3>
 <h5> 정수 n이 주어질 때, n을 문자열로 변환하여 return하도록 solution 함수를 완성해주세요. | 123 >> "123" </h5>
@@ -18,6 +83,8 @@ function solution(n) {
 ```
 <br>
 
+-  배열을 join()으로 묶을 수 있다.
+-  join('') 으로 String으로 묶을 수 있다.
 
 
 <h1> 2023.10.02 </h1>
