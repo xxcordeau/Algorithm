@@ -1,5 +1,24 @@
 #Algorithm
 ===================================================
+<h1> 2023.10.03 </h1>
+<h3> 문제 15 | 문자열로 변환 </h3>
+<h5> 정수 n이 주어질 때, n을 문자열로 변환하여 return하도록 solution 함수를 완성해주세요. | 123 >> "123" </h5>
+
+```javascript
+
+function solution(n) {
+    var answer = '';
+    
+    const arr = [n];
+    answer = arr.join('');
+    
+    return answer;
+}
+
+```
+<br>
+
+
 
 <h1> 2023.10.02 </h1>
 <h3> 문제 14 | 두 수의 연산값 비교하기 </h3>
