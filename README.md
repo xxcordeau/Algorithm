@@ -1,5 +1,22 @@
 #Algorithm
 ===================================================
+<h1> 2023.09.22 </h1>
+<h3> 문제 5 | 특수문자 출력하기 </h3>
+<h5> 다음과 같이 출력하도록 코드를 작성해 주세요. | !@#$%^&*(\'"<>?:; </h5>
+
+```javascript
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+let str = '!@#$%^&*(\'"<>?:;'
+rl.on('close', function () {
+    console.log('!@#$%^&*(\\\'\"<>?:;');
+});
+```
+<br>
 
 <h1> 2023.09.21 </h1>
 <h3> 문제 4 | 대소문자 바꿔서 출력하기 </h3>
