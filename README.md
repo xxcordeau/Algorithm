@@ -1,6 +1,31 @@
 #Algorithm
 ===================================================
+<h1> 2023.10.07 </h1>
+<h3> 문제 19 | 특정한 문자를 대문자로 바꾸기 </h3>
+<h5> 영소문자로 이루어진 문자열 my_string과 영소문자 1글자로 이루어진 문자열 alp가 매개변수로 주어질 때, my_string에서 alp에 해당하는 모든 글자를 대문자로 바꾼 문자열을 return 하는 solution 함수를 작성해 주세요.
 
+ | alp = n >> jeoNgyeoN </h5>
+
+```javascript
+
+function solution(my_string, alp) {
+    var answer =[];
+    let arr =  [...my_string];
+    
+    for( let i=0; i< arr.length; i++){
+        if(arr[i] == alp){ //p === p
+            alp = alp.toUpperCase() //p = P
+            arr[i] = alp; 
+        }   
+        alp = alp.toLowerCase() //P = p
+    }
+    answer = arr.join("");
+ 
+    return answer;
+    
+}
+```
+<br>
 
 <h1> 2023.10.06 </h1>
 <h3> 문제 18 | 대문자로 바꾸기 </h3>
