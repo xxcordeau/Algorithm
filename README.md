@@ -9,7 +9,7 @@
 - 3 ⊕ 12 = 312<br>
 양의 정수 a와 b가 주어졌을 때, a ⊕ b와 2 * a * b 중 더 큰 값을 return하는 solution 함수를 완성해 주세요.<br>
 
-단, a ⊕ b와 2 * a * b가 같으면 a ⊕ b를 return 합니다.<br> a == 9 / b == 18 >>> 918 </h5>
+단, a ⊕ b와 2 * a * b가 같으면 a ⊕ b를 return 합니다.<br> | a == 9 / b == 18 >>> 918 </h5>
 
 ```javascript
 
@@ -41,7 +41,7 @@ function solution(a, b) {
 - 3 ⊕ 12 = 312<br>
 양의 정수 a와 b가 주어졌을 때, a ⊕ b와 b ⊕ a 중 더 큰 값을 return 하는 solution 함수를 완성해 주세요.<br>
 
-단, a ⊕ b와 b ⊕ a가 같다면 a ⊕ b를 return 합니다.<br> a == 9 / b == 18 >>> 918 </h5>
+단, a ⊕ b와 b ⊕ a가 같다면 a ⊕ b를 return 합니다.<br> | a == 9 / b == 18 >>> 918 </h5>
 
 ```javascript
 function solution(a, b) {
@@ -64,7 +64,7 @@ function solution(a, b) {
 
 <h1> 2023.09.31 </h1>
 <h3> 문제 12 | 문자열 곱하기 </h3>
-<h5> 문자열 my_string과 정수 k가 주어질 때, my_string을 k번 반복한 문자열을 return 하는 solution 함수를 작성해 주세요. | "string" / k >>> "stringstringstring" </h5>
+<h5> 문자열 my_string과 정수 k가 주어질 때, my_string을 k번 반복한 문자열을 return 하는 solution 함수를 작성해 주세요.<br> | "string" / k >>> "stringstringstring" </h5>
 
 ```javascript
 function solution(my_string, k) {
@@ -81,7 +81,7 @@ function solution(my_string, k) {
 
 <h1> 2023.09.30 </h1>
 <h3> 문제 11 | 문자리스트를 문자열로 반환하기 </h3>
-<h5> 문자들이 담겨있는 배열 arr가 주어집니다. arr의 원소들을 순서대로 이어 붙인 문자열을 return 하는 solution함수를 작성해 주세요. | ["a","b","c"] >>> "abc" </h5>
+<h5> 문자들이 담겨있는 배열 arr가 주어집니다. arr의 원소들을 순서대로 이어 붙인 문자열을 return 하는 solution함수를 작성해 주세요. <br>| ["a","b","c"] >>> "abc" </h5>
 
 ```javascript
 function solution(arr) {
